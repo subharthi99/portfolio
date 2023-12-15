@@ -1,4 +1,4 @@
-Visit my portfolio site: [https://subharthi99.github.io/personal-portfolio/](url)
+Visit my portfolio site: [https://subharthi99.github.io/portfolio/](url)
 
 ## Contact
 
