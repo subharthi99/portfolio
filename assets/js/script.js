@@ -140,6 +140,11 @@ for (let i = 0; i < formInputs.length; i++) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
+const revealPageSections = function (page) {
+  const pageRevealItems = page.querySelectorAll("[data-reveal]");
+  pageRevealItems.forEach((item) => item.classList.add("is-visible"));
+}
+
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
@@ -148,6 +153,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
       if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
+        revealPageSections(pages[i]);
         window.scrollTo(0, 0);
       } else {
         pages[i].classList.remove("active");
@@ -160,6 +166,11 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // reveal on scroll
 const revealItems = document.querySelectorAll("[data-reveal]");
+const activePage = document.querySelector("[data-page].active");
+
+if (activePage) {
+  revealPageSections(activePage);
+}
 
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver((entries, observer) => {

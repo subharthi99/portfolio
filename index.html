@@ -26,7 +26,7 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;700&family=Sora:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F0BRWNR9V6"></script>
@@ -111,20 +111,6 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1999-10-25">October 25, 1999</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
 
@@ -154,15 +140,15 @@
             </a>
           </li>
           
-          <!-- <li class="social-item">
-            <a href="https://leetcode.com/subharthi99" class="social-link">
-              <i class="fab fa-leetcode"></i>
+          <li class="social-item">
+            <a href="https://medium.com/@subharthi1999" class="social-link" aria-label="Medium">
+              <ion-icon name="logo-medium"></ion-icon>
             </a>
-          </li>           -->
+          </li>
 
           <li class="social-item">
-            <a href="https://www.instagram.com/subharthi_99/" class="social-link" aria-label="Instagram">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://leetcode.com/subharthi99/" class="social-link" aria-label="LeetCode">
+              <ion-icon name="code-slash-outline"></ion-icon>
             </a>
           </li>
 
@@ -249,7 +235,7 @@
               Designing scalable pipelines for internal operations, improving automation, and deploying models for reliable serving.
             </p>
             <div class="hero-actions">
-              <a class="btn primary" href="./assets/pdf/resume_Subharthi_Saha.pdf" download>Download resume</a>
+              <a class="btn primary" href="./assets/pdf/resume_Subharthi_main.pdf" download>Download resume</a>
               <a class="btn ghost" href="mailto:subharthi.saha@alumni.usc.edu">Let's talk</a>
             </div>
           </div>
@@ -259,95 +245,117 @@
               <p class="stat-label">Years in ML and data</p>
             </div>
             <div class="stat-card">
-              <p class="stat-value">10+</p>
+              <p class="stat-value">16+</p>
               <p class="stat-label">Projects shipped</p>
             </div>
             <div class="stat-card">
               <p class="stat-value">$3.5M</p>
               <p class="stat-label">Savings delivered</p>
             </div>
+            <div class="stat-card">
+              <p class="stat-value">200+</p>
+              <p class="stat-label">Hours automated/month</p>
+            </div>
           </div>
         </section>
 
         <section class="focus-chips" data-reveal style="--delay: 0.25s;">
           <span>ML Systems</span>
-          <span>Infra Pipelines</span>
-          <span>ETL Pipelines</span>
-          <span>Model Serving</span>
-          <span>Automation</span>
-          <span>ML Software Engineering</span>
+          <span>ETL & Infra Pipelines</span>
+          <span>Model Serving & Tracking</span>
+          <span>Process Automation and Tools</span>
         </section>
 
         <!--
           - service
         -->
 
-        <section class="service" data-reveal style="--delay: 0.35s;">
+        <section class="service tech-stack-section" data-reveal style="--delay: 0.35s;">
 
-          <h3 class="h3 service-title">What I'm doing</h3>
+          <h3 class="h3 service-title">Tech Stack</h3>
 
           <ul class="service-list">
 
-            <li class="service-item">
+            <li class="service-item tech-group">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="analytics icon" width="40">
+                <ion-icon name="code-slash-outline"></ion-icon>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Analytics</h4>
+                <h4 class="h4 service-item-title">Languages & Core</h4>
 
-                <p class="service-item-text">
-                  Turning messy operational data into reliable dashboards and decision-ready metrics.
-                </p>
+                <ul class="stack-list">
+                  <li><span class="stack-pill"><img src="./assets/images/tech/python.svg" alt="" loading="lazy"><span>Python</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="terminal-outline"></ion-icon><span>SQL</span></span></li>
+                  <li><span class="stack-pill"><img src="./assets/images/tech/postgresql.svg" alt="" loading="lazy"><span>PostgreSQL</span></span></li>
+                </ul>
               </div>
 
             </li>
 
-            <li class="service-item">
+            <li class="service-item tech-group">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Pred Model icon" width="40">
+                <ion-icon name="cloud-upload-outline"></ion-icon>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Predictive Modeling</h4>
+                <h4 class="h4 service-item-title">Infra & Deployment</h4>
 
-                <p class="service-item-text">
-                  Forecasting demand and risk with models that are tested, monitored, and explainable.
-                </p>
+                <ul class="stack-list">
+                  <li><span class="stack-pill"><img src="./assets/images/tech/docker.svg" alt="" loading="lazy"><span>Docker</span></span></li>
+                  <li><span class="stack-pill"><img src="./assets/images/tech/kubernetes.svg" alt="" loading="lazy"><span>Kubernetes</span></span></li>
+                </ul>
               </div>
 
             </li>
 
-            <li class="service-item">
+            <li class="service-item tech-group">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-stat.svg" alt="stats icon" width="40">
+                <ion-icon name="construct-outline"></ion-icon>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Statistics</h4>
+                <h4 class="h4 service-item-title">Backend & MLOps</h4>
 
-                <p class="service-item-text">
-                  Designing experiments and statistical tests to back decisions with evidence.
-                </p>
+                <ul class="stack-list">
+                  <li><span class="stack-pill"><img src="./assets/images/tech/fastapi.svg" alt="" loading="lazy"><span>FastAPI</span></span></li>
+                  <li><span class="stack-pill"><img src="./assets/images/tech/apacheairflow.svg" alt="" loading="lazy"><span>Airflow</span></span></li>
+                  <li><span class="stack-pill"><img src="./assets/images/tech/mlflow.svg" alt="" loading="lazy"><span>MLflow</span></span></li>
+                  <li><span class="stack-pill"><img src="./assets/images/tech/redis.svg" alt="" loading="lazy"><span>Redis</span></span></li>
+                  <li><span class="stack-pill"><img src="./assets/images/tech/githubactions.svg" alt="" loading="lazy"><span>GitHub Actions</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="extension-puzzle-outline"></ion-icon><span>MCP</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="flash-outline"></ion-icon><span>vLLM</span></span></li>
+                </ul>
               </div>
 
             </li>
 
-            <li class="service-item">
+            <li class="service-item tech-group">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-mg.svg" alt="data science icon" width="40">
+                <ion-icon name="hardware-chip-outline"></ion-icon>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Science</h4>
+                <h4 class="h4 service-item-title">ML / AI</h4>
 
-                <p class="service-item-text">
-                  Shipping end-to-end ML pipelines that integrate with real workflows.
-                </p>
+                <ul class="stack-list">
+                  <li><span class="stack-pill"><img src="./assets/images/tech/pytorch.svg" alt="" loading="lazy"><span>PyTorch</span></span></li>
+                  <li><span class="stack-pill"><img src="./assets/images/tech/tensorflow.svg" alt="" loading="lazy"><span>TensorFlow</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="stats-chart-outline"></ion-icon><span>XGBoost</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="sparkles-outline"></ion-icon><span>LLMs</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="git-network-outline"></ion-icon><span>RAG</span></span></li>
+                  <li><span class="stack-pill"><img src="./assets/images/tech/huggingface.svg" alt="" loading="lazy"><span>Hugging Face</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="swap-horizontal-outline"></ion-icon><span>Transformers</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="link-outline"></ion-icon><span>LangChain</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="layers-outline"></ion-icon><span>pgvector</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="leaf-outline"></ion-icon><span>Pinecone</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="server-outline"></ion-icon><span>VectorDB</span></span></li>
+                  <li><span class="stack-pill"><ion-icon name="cube-outline"></ion-icon><span>FAISS</span></span></li>
+                </ul>
               </div>
 
             </li>
@@ -567,12 +575,12 @@
 
       <article class="resume" data-page="resume">
 
-        <header>
-          <!-- <h2 class="h2 article-title">Resume</h2> -->
-          <h2 class="h2 article-title" id="resume-container">
-            <span id="resume-text">Resume</span>
-            <a href="./assets/pdf/resume_Subharthi_Saha.pdf" download class="download-link" id="download-link">(Download PDF)</a>
-          </h2>
+        <header class="resume-header">
+          <h2 class="h2 article-title">Resume</h2>
+          <a href="./assets/pdf/resume_Subharthi_main.pdf" download class="btn ghost resume-download">
+            <ion-icon name="download-outline"></ion-icon>
+            <span>Download PDF</span>
+          </a>
         </header>
 
         <section class="timeline" data-reveal style="--delay: 0.1s;">
@@ -591,11 +599,15 @@
 
               <h4 class="h4 timeline-item-title">University of Southern California</h4>
 
-              <span>Aug 2021 — May 2023</span>
+              <p class="timeline-date">Aug 2021 — May 2023</p>
 
-              <p class="timeline-text">
-                M.Sc., Machine Learning and Data Science <b>GPA 3.81/4.0</b>
-                <br><small>Relevant Courses: <i>Machine Learning, Deep Learning, Databases, Applied and Cloud Computing, Data Structure and Algorithms, Linear Algebra, Probability Theory, Digital Signal Processing</small></i>
+              <p class="timeline-item-detail">
+                M.Sc., Machine Learning and Data Science <b>GPA: 3.81 / 4.0</b>
+              </p>
+
+              <p class="timeline-coursework">
+                <b>Relevant coursework:</b> Machine Learning, Deep Learning, Databases, Applied and Cloud Computing,
+                Data Structures and Algorithms, Linear Algebra, Probability Theory, Digital Signal Processing.
               </p>
 
             </li>
@@ -604,11 +616,15 @@
 
               <h4 class="h4 timeline-item-title">Vellore Institute of Technology</h4>
 
-              <span>July 2017 — July 2021</span>
+              <p class="timeline-date">July 2017 — July 2021</p>
 
-              <p class="timeline-text">
-                B.Tech., Electronics and Communication Engineering <b>GPA 8.95/10.0</b>
-                <br><small>Relevant Courses: <i>Machine Learning, Data Mining and Predictive Analysis, Computer Vision, Big Data Analytics</small></i>
+              <p class="timeline-item-detail">
+                B.Tech., Electronics and Communication Engineering <b>GPA: 8.95 / 10.0</b>
+              </p>
+
+              <p class="timeline-coursework">
+                <b>Relevant coursework:</b> Machine Learning, Data Mining and Predictive Analysis, Computer Vision,
+                Big Data Analytics.
               </p>
 
             </li>
@@ -621,7 +637,7 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="briefcase-outline"></ion-icon>
             </div>
 
             <h3 class="h3">Experience</h3>
@@ -631,160 +647,147 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Data Scientist @ Prime Healthcare</h4>
+              <h4 class="h4 timeline-item-title">Data Scientist</h4>
 
-              <span>Feb 2024 — Present</span>
+              <p class="timeline-item-role">Prime Healthcare</p>
 
-              <p class="timeline-text">
-                  ◦ Engineered forecasting models using Prophet to optimize inventory across 51 hospitals, analyzing usage patterns for
-                  10,000 + items; <b>reduced stockouts by 42%</b> and <b>cut waste by $1.6M annually</b>.<br>
-                  ◦ Designed a RAG-based system with Llama 3.2 and web scraping to automate item categorization and suggest
-                  substitutes; <b>boosted substitution accuracy by 25%</b> and <b>eliminated 200+ hours/month of manual effort</b>.<br>
-                  ◦ Integrated the Medline API with procurement systems to automate exception handling; <b>reduced purchase order
-                  exceptions by 75%</b> and <b>saved 80+ hours/week in manual processing</b>.<br>
-                  ◦ Directed data migration for an 8-hospital (Ascension-Chicago) acquisition, executing ERP data mapping for seamless
-                  Lawson integration; ensured <b>zero data loss</b> during a <b>$370M+ acquisition</b>.<br>
-                  ◦ Automated contract audits by developing scalable ETL pipelines processing <b>3M+ rows/day</b>, reducing audit time from 8
-                  hours to 10 minutes and <b>improving data accuracy by 95%</b>.<br>
-              </p>
+              <p class="timeline-date">Feb 2024 — Present</p>
+
+              <ul class="timeline-points">
+                <li>
+                  Built a <b>custom MCP server</b> for LLM tool-calling against production databases with guardrails,
+                  enabling agent-driven automation across 10+ production workflows and
+                  <b>reducing manual data lookup by 70%+</b>.
+                </li>
+                <li>
+                  Deployed an <b>automated invoice-processing</b> pipeline using <b>vision-language OCR</b> with
+                  structured parsing and validation, <b>reducing manual review by 80%+</b> and replacing an external
+                  contracted vendor in production.
+                </li>
+                <li>
+                  Operationalized a <b>coding-agent stack</b> (Devstral-2, Qwen3-Coder-Next, OpenAI gpt-oss) with
+                  tool-calling and standardized evals, improving automation throughput <b>10x</b> while reducing
+                  failure and retry rates in production workflows.
+                </li>
+                <li>
+                  Delivered a <b>RAG recommendation engine</b> for item substitution with Precision@K, Recall@K, and
+                  coverage tracking, <b>improving accuracy by 25%</b>, <b>expanding coverage by 40%</b>, and
+                  <b>eliminating 200+ analyst hours/month</b>.
+                </li>
+                <li>
+                  Architected a <b>multi-model inference platform</b> (vLLM on GPU-backed clustered L40s servers),
+                  hosting foundation models and <b>QLoRA domain-adapted variants in parallel</b> with latency and
+                  capacity tuning for scalable serving.
+                </li>
+                <li>
+                  Automated <b>forecasting pipelines</b> for <b>10K+ SKUs</b> across <b>51 hospitals</b>, optimizing
+                  replenishment under operational constraints and delivering <b>$1.6M/year waste reduction</b>.
+                </li>
+                <li>
+                  Directed an <b>8-hospital</b> ERP migration (Ascension-Chicago), implementing mapping and
+                  reconciliation checks with cutover runbooks and achieving <b>zero data loss</b> for a
+                  <b>$370M+ acquisition</b>.
+                </li>
+                <li>
+                  Productionized <b>distributed EDI ETL</b> orchestrated with <b>Airflow</b>, defining pipeline SLIs
+                  for freshness, failures, and latency; achieved exactly-once delivery with <b>P99 &lt; 5s</b>.
+                </li>
+                <li>
+                  Scaled <b>contract-audit ETL (3M+ rows/day)</b> via distributed batch processing and async I/O,
+                  reducing runtime from <b>8 hours to 10 minutes</b> and improving reconciliation efficiency by
+                  <b>90%</b> under production load.
+                </li>
+              </ul>
 
             </li>
             
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Machine Learning Intern @ CarmaCam</h4>
+              <h4 class="h4 timeline-item-title">Machine Learning Intern</h4>
 
-              <span>Aug 2023 — Feb 2024</span>
+              <p class="timeline-item-role">CarmaCam</p>
 
-              <p class="timeline-text">
-                Devising two approaches to identify and classify road signs for autonomous vehicles: 
-                <br>(1) AutoML on Google Cloud platform, and <br>(2) transfer learning with various architectures (ResNet50, Xception, and InceptionResNetV2).
-              </p>
+              <p class="timeline-date">Aug 2023 — Feb 2024</p>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Data Scientist @ USC ITS - Office of CISO</h4>
-
-              <span>Feb 2022 — May 2023</span>
-
-              <p class="timeline-text">
-                  ◦ Redesigned the risk prediction framework, achieving improved <b>F1-score of 0.91</b> for 28,000 vendors of USC.<br>
-                  ◦ Implemented XGBoost model, accomplished <b>15% reduction of false positives</b>, through <b>rigorous A/B testing</b>.<br>
-                  ◦ Automated processes for alerting vendors of their risk ratings on Power BI, provided data analysis findings to
-                  stakeholders with recommendations to mitigate vendor risks. <b>Cut down 20+ hours</b> of weekly manual work.
-              </p>
+              <ul class="timeline-points">
+                <li>Built road-sign detection pipelines for autonomous driving use cases.</li>
+                <li>
+                  Evaluated AutoML on Google Cloud and transfer learning approaches including ResNet50, Xception,
+                  and InceptionResNetV2.
+                </li>
+              </ul>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Data Science Research Intern @ Vellore Institute of Technology</h4>
+              <h4 class="h4 timeline-item-title">Data Scientist</h4>
 
-              <span>Nov 2020 — July 2021</span>
+              <p class="timeline-item-role">USC ITS - Office of CISO</p>
 
-              <p class="timeline-text">
-                ◦ Implemented novel efficient deep-learning model to diagnose patients with COVID-19 or pneumonia from X-ray images.<br>
-                ◦ Employed Unet encoder-decoder models, <b>improved training speeds by a factor of 2</b>, achieving low FLOPs
-                  comparable to state-of-the art models.<br>
-                ◦ Deployed this network <b>achieving 99.3% accuracy and 99.31% F1-score</b> in Micronet M3 model.
-              </p>
+              <p class="timeline-date">Feb 2022 — May 2023</p>
+
+              <ul class="timeline-points">
+                <li>
+                  Redesigned the vendor risk prediction framework for 28,000 USC vendors, reaching an
+                  <b>F1-score of 0.91</b>.
+                </li>
+                <li>
+                  Deployed an XGBoost model with A/B validation and achieved a <b>15% false-positive reduction</b>.
+                </li>
+                <li>
+                  Automated vendor risk alerts and reporting in Power BI, saving <b>20+ hours of manual work weekly</b>.
+                </li>
+              </ul>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Machine Learning Intern @ Arista Networks</h4>
+              <h4 class="h4 timeline-item-title">Data Science Research Intern</h4>
 
-              <span>Nov 2020 — July 2021</span>
+              <p class="timeline-item-role">Vellore Institute of Technology</p>
 
-              <p class="timeline-text">
-                ◦ Received theoretical as well as hands-on training on concepts of fingerprinting along with ML algorithms in 1 week.<br>
-                ◦ Leveraged <b>k-Nearest Neighbor and Random Forest</b> models to estimate user position in an indoor environment. Using
-                  Wi-Fi and inertial sensors yielded positioning as <b>precise as 2-3 m</b>.<br>
-                ◦ Designed algorithm to apply concepts of RSSI to extract real-time location of client devices operating on access points of
-                  WiFi routers placed across work facility with an <b>accuracy of 0.98</b>.
-              </p>
+              <p class="timeline-date">Nov 2020 — July 2021</p>
+
+              <ul class="timeline-points">
+                <li>
+                  Developed an efficient deep-learning approach to diagnose COVID-19 and pneumonia from chest X-rays.
+                </li>
+                <li>
+                  Used U-Net encoder-decoder architectures to <b>double training speed</b> while maintaining low FLOPs.
+                </li>
+                <li>
+                  Deployed Micronet M3 with <b>99.3% accuracy</b> and <b>99.31% F1-score</b>.
+                </li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Intern</h4>
+
+              <p class="timeline-item-role">Arista Networks</p>
+
+              <p class="timeline-date">Nov 2020 — July 2021</p>
+
+              <ul class="timeline-points">
+                <li>
+                  Completed accelerated training in wireless fingerprinting and applied machine learning methods.
+                </li>
+                <li>
+                  Built indoor positioning models using <b>k-Nearest Neighbor and Random Forest</b> with Wi-Fi and inertial
+                  signals, reaching <b>2-3 meter precision</b>.
+                </li>
+                <li>
+                  Designed an RSSI-based localization algorithm for real-time client tracking with <b>0.98 accuracy</b>.
+                </li>
+              </ul>
 
             </li>
 
           </ol>
-
-        </section>
-
-        <section class="skill" data-reveal style="--delay: 0.3s;">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">ML Modeling</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Data Analysis</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Coding Languages (Python, SQL)</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Python Libraries - scikit-learn, PyTorch, TensorFlow, Pandas, NumPy, Matplotlib, OpenCV</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Tools (AWS, GCP, PowerBI, Anaconda, GitHub)</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
 
         </section>
 
@@ -1314,7 +1317,12 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="https://formsubmit.co/subharthi.saha@alumni.usc.edu" method="POST" class="form" data-form>
+
+            <input type="hidden" name="_subject" value="New portfolio contact form submission">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none">
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
